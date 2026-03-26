@@ -1,0 +1,2 @@
+# teropalvelinhallinta
+palvelin hallinta kurssi
