@@ -4,7 +4,7 @@ x)
   -hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.
 a)
   Seurasin ohjeita teron ohjeiden mukaan. 
-  ![Alt text]()
+  ![Alt text](Näyttökuva 2026-03-31 233640.jpg)
 ## References
 https://terokarvinen.com/ssh-public-key-login-without-password/
 https://terokarvinen.com/hello-ansible/
