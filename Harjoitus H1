@@ -4,7 +4,7 @@ x)
   -hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.
 a)
   Seurasin ohjeita teron ohjeiden mukaan. 
-![nayttokuva1ssh](![Image](https://github.com/user-attachments/assets/7493222c-430e-4972-989c-766c23eaebdd))
+![nayttokuva1ssh](!https://github.com/user-attachments/assets/7493222c-430e-4972-989c-766c23eaebdd)
 ## References
 https://terokarvinen.com/ssh-public-key-login-without-password/
 https://terokarvinen.com/hello-ansible/
