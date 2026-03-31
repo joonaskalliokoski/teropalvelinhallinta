@@ -4,7 +4,7 @@ x)
   -hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.
 a)
   Seurasin ohjeita teron ohjeiden mukaan. 
-  ![Alt text](Näyttökuva 2026-03-31 233640.jpg)
+  ![nayttokuva1](https://private-user-images.githubusercontent.com/197735162/572146550-ff3dae35-06a1-45f9-9a1e-669cf6307628.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQ5OTAxNjMsIm5iZiI6MTc3NDk4OTg2MywicGF0aCI6Ii8xOTc3MzUxNjIvNTcyMTQ2NTUwLWZmM2RhZTM1LTA2YTEtNDVmOS05YTFlLTY2OWNmNjMwNzYyOC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMzMVQyMDQ0MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNWE4Mzg1MzZhM2VjNGRkYjllZDFjYmNhMmVhYmE3ZWUyZDEwZWM4YTkyYjViNmVjZTk2Mjk1YjY1MjY3YTQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.R5OgXXQ3Sh9t-K_-X4iBA2f5Klt8rg13VkRv7XBKzUw)
 ## References
 https://terokarvinen.com/ssh-public-key-login-without-password/
 https://terokarvinen.com/hello-ansible/
