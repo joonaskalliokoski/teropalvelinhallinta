@@ -1,4 +1,5 @@
 # H1
+
 x)
   Ei tarvi mennä sshd_configure tiedostoon muokkamaan asetuksia, SSH avaimen käyttö toimii automaattisesti.
   hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.
