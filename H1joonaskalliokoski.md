@@ -1,18 +1,18 @@
 # H1
-x)
+x
   -Ei tarvi mennä sshd_configure tiedostoon muokkamaan asetuksia, SSH avaimen käyttö toimii automaattisesti.
   -hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.
-a)
+a
   Seurasin ohjeita teron ohjeiden mukaan. Asensin OpenSSH:n ajamalla komennon sudo apt install ssh. 
   Seuraavaksi käynnistin SSH:n komenolla sudo systemctl enable ssh. 
   Loin yhteyden komenolla ssh localhost ja yhdistin onnistuneesti.
   Katkaisin yhteyden komennolla exit.
   SSH:n lataus ja testaus tapahtui onnistuneesti.
-b)
+b
   Generoin SSH-avaimet komenolla ssh-keygen.
   Seuraavaksi kopion julkisen avaimen localhostiin
   Testasin yhdistämällä SSH:n ja yhdistin ilman salasanalla eli SSH-avaimen luominen ja siirtäminen onnistui.
-c)
+c
   Aloitin lataamalla ansible ja muita sovelluksia ohjeiden mukaisesti komenolla sudo apt-get install ansible micro bash-completion tree. Lataus tapahtui onnistuneesti.
 
 Seuraavaksi tein hakemistopuun ansible:le ja loin host.ini tiedoston johon kirjoitin localhost
