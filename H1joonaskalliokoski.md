@@ -1,52 +1,52 @@
 # H1
 
 x)
-	- Ei tarvi mennä sshd_configure tiedostoon muokkamaan asetuksia, SSH avaimen käyttö toimii automaattisesti.
-	- hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.
+	<p>- Ei tarvi mennä sshd_configure tiedostoon muokkamaan asetuksia, SSH avaimen käyttö toimii automaattisesti.</p>
+	<p>- hosts.ini tiedostoon pitää kirjoittaa localhost ei käyttäjä@localhost mutta uskon molemmat käy.</p>
 
 a)
-	Seurasin ohjeita teron ohjeiden mukaan. Asensin OpenSSH:n ajamalla komennon sudo apt install ssh. 
-	Seuraavaksi käynnistin SSH:n komenolla sudo systemctl enable ssh. 
-	Loin yhteyden komenolla ssh localhost ja yhdistin onnistuneesti.
-	Katkaisin yhteyden komennolla exit.
-	SSH:n lataus ja testaus tapahtui onnistuneesti.
+	<p>Seurasin ohjeita teron ohjeiden mukaan. Asensin OpenSSH:n ajamalla komennon sudo apt install ssh. 
+	<p>Seuraavaksi käynnistin SSH:n komenolla sudo systemctl enable ssh. 
+	<p>Loin yhteyden komenolla ssh localhost ja yhdistin onnistuneesti.
+	<p>Katkaisin yhteyden komennolla exit.
+	<p>SSH:n lataus ja testaus tapahtui onnistuneesti.
 
 b)
-	Generoin SSH-avaimet komenolla ssh-keygen.
-	Seuraavaksi kopion julkisen avaimen localhostiin
-	Testasin yhdistämällä SSH:n ja yhdistin ilman salasanalla eli SSH-avaimen luominen ja siirtäminen onnistui.
+	<p>Generoin SSH-avaimet komenolla ssh-keygen.
+	<p>Seuraavaksi kopion julkisen avaimen localhostiin
+	<p>Testasin yhdistämällä SSH:n ja yhdistin ilman salasanalla eli SSH-avaimen luominen ja siirtäminen onnistui.
 
 c)
-	Aloitin lataamalla ansible ja muita sovelluksia ohjeiden mukaisesti komenolla sudo apt-get install ansible micro bash-completion tree.
-	Lataus tapahtui onnistuneesti.
+	<p>Aloitin lataamalla ansible ja muita sovelluksia ohjeiden mukaisesti komenolla sudo apt-get install ansible micro bash-completion tree.
+	<p>Lataus tapahtui onnistuneesti.
   
-	Seuraavaksi tein hakemistopuun ansible:le ja loin host.ini tiedoston johon kirjoitin localhost
-	Testaus tapahtui onnistuneesti
+	<p>Seuraavaksi tein hakemistopuun ansible:le ja loin host.ini tiedoston johon kirjoitin localhost
+	<p>Testaus tapahtui onnistuneesti
 
-	Poistin python varoituksen 
-	[all:vars]
-	ansible_python_interpreter=/usr/bin/python3
+	<p>Poistin python varoituksen 
+	<p>[all:vars]
+	<p>ansible_python_interpreter=/usr/bin/python3
 
-	Tein ansible.cfg ja kirjoitin
-	[defaults]
-	inventory = hosts.ini
+	<p>Tein ansible.cfg ja kirjoitin
+	<p>[defaults]
+	<p>inventory = hosts.ini
 
-	Seuraavaksi tein site.yml ja kirjoitin
-	- hosts: all
+	<p>Seuraavaksi tein site.yml ja kirjoitin
+	<p>- hosts: all
 	  roles:
 	    - hello
 
-	Aluksi oli pieniä syntax virheitä mutta sain korjattua
+	<p>Aluksi oli pieniä syntax virheitä mutta sain korjattua
 
-	Tein kansion roles/hello/tasks/
-	ja kansioon loin main.yml ja kirjoitin tiedostoon
+	<p>Tein kansion roles/hello/tasks/
+	<p>ja kansioon loin main.yml ja kirjoitin tiedostoon
 	- copy:
 	    dest: /tmp/hello-ansible
 	    content: "See you at TeroKarvinen.com!\n"
 
-	Ilmeni onglema testaukseb kanssa mutta selitän myöhemmin
+	<p>Ilmeni onglema testaukseb kanssa mutta selitän myöhemmin
 
-	Menin seuraavaksi lisäämään ansible.cfg tiedston
+	<p>Menin seuraavaksi lisäämään ansible.cfg tiedston
 	[defaults]
 	...
 	display_args_to_stdout = true
