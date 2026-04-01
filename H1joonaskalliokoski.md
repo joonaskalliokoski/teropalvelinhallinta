@@ -59,7 +59,7 @@ inventory = hosts.ini
     content: "See you at TeroKarvinen.com!\n"
 </pre>
 
-<p>Ilmeni onglema testaukseb kanssa mutta selitän myöhemmin.</p>
+<p>Ilmeni onglema testauksen kanssa mutta selitän myöhemmin.</p>
 
 <p>Menin seuraavaksi lisäämään ansible.cfg tiedoston</p>
 
