@@ -71,4 +71,15 @@ display_args_to_stdout = true
 
 ## Ongelma
 
-Testasin:
+<p>Testasin ssh localhost 'cat /tmp/hello-ansible' mutta ilmeni error</p>
+
+<pre>
+cat: /tmp/hello-ansible/: Not a directory
+</pre>
+
+<p>En löytänyt ratkaisua muuten kaikki toimi tehtävään liittyen.</p>
+
+## References
+
+https://terokarvinen.com/ssh-public-key-login-without-password/  
+https://terokarvinen.com/hello-ansible/
