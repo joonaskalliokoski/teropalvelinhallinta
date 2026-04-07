@@ -131,10 +131,31 @@ Testataan löytyykö tiedosto ja se löytyy
 
 e)
 
+Lisätään komento, joka katsoo uptimen ja tulostaa sen
 
+<img width="369" height="133" alt="image" src="https://github.com/user-attachments/assets/31321971-ae74-49e6-9b38-10f9a15c1f95" />
+
+Testataan
+
+<img width="938" height="141" alt="image" src="https://github.com/user-attachments/assets/8c82674b-9f07-44e8-875b-ae7286e7dffb" />
+
+Toimii
 
 # References
 ansible-doc apt
+
 ansible-doc copy
+
+ansible-doc debug
+
+ansible-doc command
+
+https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/debug_module.html
+
+https://terokarvinen.com/passwordless-sudo/
+
+https://terokarvinen.com/passwordless-sudo-with-ansible/
+
 https://stackoverflow.com/questions/47791302/how-to-add-multiple-lines-in-ansible
+
 https://stackoverflow.com/questions/77343074/how-to-check-uptime-of-remote-server-thru-ansible-and-send-report-as-csv-and-h
