@@ -28,3 +28,9 @@ Ansible sisäänrakennettu dokumentaatio
 
 a)
 
+Luodaan ensin oma kansio ja main.yml uudelle roolille 
+
+<img width="325" height="224" alt="image" src="https://github.com/user-attachments/assets/f3a34f8c-d21e-4ccf-819f-41d0a33b12bb" />
+
+
+
