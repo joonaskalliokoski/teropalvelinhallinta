@@ -44,3 +44,13 @@ Sen jälkeen ajoin site.yml:n ansible-playbook komenolla
 
 <img width="1161" height="550" alt="image" src="https://github.com/user-attachments/assets/e68948c6-4a48-4781-928f-ffb14ac05f2a" />
 
+Seuraavaksi testataan toimiiko käyttäjä niin, että ssh ja sudo toimii automaattisesti
+
+<img width="941" height="254" alt="image" src="https://github.com/user-attachments/assets/890aaa48-e171-456f-b190-610ce7d03d00" />
+
+ssh yhdisti ilman, että kysyisi salasanaa
+
+sudo ei kysynyt salasanaa. Sanoisin, että testaus onnistui
+
+b)
+
